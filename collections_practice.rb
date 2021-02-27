@@ -1,3 +1,4 @@
+require pry
 def sort_array_asc(array)
   array = [25, 7, 1]
   array.sort
@@ -30,3 +31,9 @@ def reverse_array(array)
   array = [12, 4, 35]
   array.reverse
 end
+
+def kesha_maker(array)
+  array = ["blake", "ashley", "scott"]
+  array.split( , )
+end
+binding.pry
