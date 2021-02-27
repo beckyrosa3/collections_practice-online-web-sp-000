@@ -7,3 +7,8 @@ def sort_array_desc(array)
   array = [25, 7, 14]
   array.sort.reverse
 end
+
+def sort_array_char_count(array)
+  array = ["dogs", "cat", "Horses"]
+  array.length.sort
+end
