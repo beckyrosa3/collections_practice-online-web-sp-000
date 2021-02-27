@@ -53,7 +53,7 @@ end
 def add_s(array)
     array = ["hand","feet", "knee", "table"]
     array.join(', ')
-    array.each do |char| 
+    array.each do |char|
     char[0] << "s"
   end
 end
