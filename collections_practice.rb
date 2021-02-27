@@ -9,7 +9,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array = ["dogs", "cat", "Horses"]
+array = ["dogs", "cat", "Horses"]
 array.sort do |a,b|
   if a.size == b.size
     0
@@ -17,6 +17,6 @@ array.sort do |a,b|
     -1
   elsif a.size > b.size
     1
+    end
   end
-end
 end
