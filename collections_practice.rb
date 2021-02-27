@@ -53,8 +53,12 @@ end
 def add_s(array)
     array = ["hand","feet", "knee", "table"]
     array.each_with_index.map do |word, index|
-    if index == 0, 2, 3
+    if index == 0
       word + "s"
+    elsif index == 2
+        word + "s"
+    elsif index == 3
+          word + "s"
     elsif index  == 1
       word
 end
