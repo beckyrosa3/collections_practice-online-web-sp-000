@@ -48,4 +48,11 @@ end
 def sum_array(array)
     array = [11,4,7,8,9,100,134]
     array.sum
+end
+
+def add_s(array)
+    array = ["hand","feet", "knee", "table"]
+    array.each do |char|
+    char[0,2,3] >> "s"
   end
+end
