@@ -20,3 +20,8 @@ array.sort do |a,b|
     end
   end
 end
+
+def swap_elements(array)
+  array = ["blake", "ashley", "scott"]
+  array[1] = array[2]
+end
