@@ -47,6 +47,5 @@ end
 
 def sum_array(array)
     array = [11,4,7,8,9,100,134]
-    sum = 0
-    array.each {|num| sum+=num}
+    array.sum
   end
