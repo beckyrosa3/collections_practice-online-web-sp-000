@@ -34,6 +34,6 @@ end
 def kesha_maker(array)
     array = ["blake", "ashley", "scott"]
     array.join(', ')
-    array.each do |char| char[3] = $
+    array.each do |char| char[3] = "$"
   end
 end
