@@ -33,6 +33,6 @@ end
 
 def kesha_maker(array)
   array = ["blake", "ashley", "scott"]
-  array.split(' , ')
+  array.join(', ')
 
 end
