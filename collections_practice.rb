@@ -37,3 +37,9 @@ def kesha_maker(array)
     array.each do |char| char[2] = "$"
   end
 end
+
+def find_a(array)
+  array = ["apple", "orange", "pear", "avis", "arlo", "ascot"]
+  array.select do |char|
+    char[0] == "a" 
+end
