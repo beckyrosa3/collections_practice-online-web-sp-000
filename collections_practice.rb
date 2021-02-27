@@ -54,6 +54,6 @@ def add_s(array)
     array = ["hand","feet", "knee", "table"]
     
     array.each do |char|
-    char[0] << "s"
+    char[0] + "s"
   end
 end
