@@ -34,6 +34,7 @@ end
 
 def kesha_maker(array)
   array = ["blake", "ashley", "scott"]
-  array.split( , )
+  array.split(' , ')
+  
 end
-binding.pry
+#binding.pry
