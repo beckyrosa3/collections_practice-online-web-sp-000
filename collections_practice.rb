@@ -1,4 +1,3 @@
-require pry
 def sort_array_asc(array)
   array = [25, 7, 1]
   array.sort
@@ -37,4 +36,4 @@ def kesha_maker(array)
   array.split(' , ')
 
 end
-#binding.pry
+
