@@ -32,7 +32,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array = ["blake", "ashley", "scott"]
-  array.join(', ')
-
+    array = ["blake", "ashley", "scott"]
+    array.join(', ')
+    array.each do |char| char[3] = $
+  end
 end
