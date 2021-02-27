@@ -44,3 +44,10 @@ def find_a(array)
     char[0] == "a"
   end
 end
+
+def sum_array(array)
+    array = [11,4,7,8,9,100,134]
+    sum = 0
+    array.each {|num| sum+=num}
+  end
+end
