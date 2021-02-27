@@ -61,6 +61,6 @@ def add_s(array)
           word + "s"
     elsif index  == 1
       word
-end
+    end
   end
 end
